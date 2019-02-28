@@ -1,0 +1,125 @@
+
+#header {
+
+  background-color: black;
+}
+#header h1  {
+  font-family: algerian,verdana, sans-serif;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  padding-top: 45px;
+  color:white;
+  font-size: 60px;
+}
+#header p  {
+
+  font-family: verdana, sans-serif;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color:white;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+ul {
+	text-align: center;
+	display: inline;
+	padding: 15px 0px;
+	list-style: none;   /*prevent bullets from appearing */
+	text-shadow: 0 -2px 0 #000;   /* top black shadow */
+}
+ul li {
+    margin-left: 4px;
+    font-size: 24pt;
+	font-weight: bold;
+	display: inline-block;  /* treat as inline with block properties */
+	height: 45px;         /* like height */
+	width: 170px;       /* and width */
+	position: relative;
+	padding: -5px 20px;
+	cursor: pointer;
+		border: 1px solid black;
+
+}
+ul li ul {   /* nested list */
+	padding: 0;
+	position: absolute;
+	top: 45px;    /* position nested list below main list */
+	margin-left: -5px;
+	width: 100px;
+	height: 150px;
+	display: none;
+	visibility: hidden;  /* hide nested list */
+}
+ul li ul li {  /* nested list */
+    font-size: 16pt;
+	background: #555;    /* grey */
+	display: block;
+	color: white;
+	text-shadow: 0 -2px 0 #000;  /* top black shadow */
+}
+ul li ul li:hover { /* nested list hover state */
+	background: #666; /* sligthly ligther grey */
+}
+ul li:hover ul {   /* nested list when main list is in hover state */
+	display: block;
+	opacity: 1;
+	visibility: visible; /* make nested list visible */
+}
+li#About {  /* main heading list Fashion "button" */
+    background-color: grey;
+    color: white;
+}
+li#WebDev { /* main heading list Fashion "button" */
+    background-color: grey;
+	  color: white;
+}
+li#Film { /* main heading list Electronics "button" */
+    background-color: grey;
+	color: white;
+}
+li#Home { /* main heading list Home "button" */
+   background-color: grey;
+   color: white;
+}
+li#Sports { /* main heading list Sports "button" */
+   background-color: grey;
+   color: white;
+}
+li#Motors { /* main heading list Motors "button" */
+   background-color: grey;
+   color: white;
+}
+h1 {
+  font-family: algerian,verdana, sans-serif;
+}
+h2 {
+  font-family: algerian,verdana, sans-serif;
+  margin-top: 100px;
+}
+
+.bodyContainer{
+  margin-top: 205px;
+}
+
+video {
+  margin: 40px 20px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+@media (max-width: 1200px) {
+ .bodyContainer{
+   margin-top: 253px;
+ }
+ }

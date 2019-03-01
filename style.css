@@ -9,15 +9,15 @@
   padding-left: 20px;
   padding-top: 45px;
   color:white;
-  font-size: 60px;
+  font-size: 35px;
 }
 #header p  {
 
   font-family: verdana, sans-serif;
   padding-left: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   color:white;
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 0px;
 }
 ul {
@@ -98,7 +98,7 @@ h2 {
 }
 
 .bodyContainer{
-  margin-top: 180px;
+  margin-top: 163px;
 }
 
 video {
@@ -120,6 +120,6 @@ video {
 
 @media (max-width: 1200px) {
  .bodyContainer{
-   margin-top: 253px;
+   margin-top: 200px;
  }
  }

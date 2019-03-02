@@ -143,7 +143,7 @@ video {
  	 border: 2px solid black;
  	 border-radius: 20px;
  	 padding: 50px;
- 	 width: 50%;
+ 	 width: 100%;
    margin: 100px 350px;
  }
  textarea   {

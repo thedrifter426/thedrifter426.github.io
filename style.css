@@ -29,11 +29,11 @@ ul {
 }
 ul li {
     margin-left: 4px;
-    font-size: 24pt;
+    font-size: 14pt;
 	font-weight: bold;
 	display: inline-block;  /* treat as inline with block properties */
-	height: 45px;         /* like height */
-	width: 170px;       /* and width */
+	height: 35px;         /* like height */
+	width: 150px;       /* and width */
 	position: relative;
 	padding: -5px 20px;
 	cursor: pointer;
@@ -43,7 +43,7 @@ ul li {
 ul li ul {   /* nested list */
 	padding: 0;
 	position: absolute;
-	top: 45px;    /* position nested list below main list */
+	top: 34px;    /* position nested list below main list */
 	margin-left: -5px;
 	width: 100px;
 	height: 150px;
@@ -51,7 +51,7 @@ ul li ul {   /* nested list */
 	visibility: hidden;  /* hide nested list */
 }
 ul li ul li {  /* nested list */
-    font-size: 16pt;
+    font-size: 12pt;
 	background: #555;    /* grey */
 	display: block;
 	color: white;
@@ -98,7 +98,7 @@ h2 {
 }
 
 .bodyContainer{
-  margin-top: 163px;
+  margin-top: 153px;
 }
 
 video {

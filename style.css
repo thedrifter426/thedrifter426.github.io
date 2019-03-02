@@ -118,11 +118,18 @@ video {
   padding: 50px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
  .bodyContainer{
-   margin-top: 200px;
+   margin-top: 188px;
  }
  }
+
+  @media (max-width: 521px) {
+   .bodyContainer{
+     margin-top: 153px;
+   }
+   }
+
  body  {
  	 background-color: lightblue; /* sets the whole background color */
    font-family : verdana, calibri;
